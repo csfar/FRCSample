@@ -14,6 +14,7 @@
 		A4F755EE26A8B62A002D8A02 /* SampleSxasdas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4F755EC26A8B62A002D8A02 /* SampleSxasdas.xcdatamodeld */; };
 		A4F755F026A8B634002D8A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F755EF26A8B634002D8A02 /* Assets.xcassets */; };
 		A4F755F326A8B634002D8A02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F755F126A8B634002D8A02 /* LaunchScreen.storyboard */; };
+		A4F755FC26A8B85E002D8A02 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F755FB26A8B85E002D8A02 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A4F755EF26A8B634002D8A02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4F755F226A8B634002D8A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4F755F426A8B634002D8A02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F755FB26A8B85E002D8A02 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				A4F755F126A8B634002D8A02 /* LaunchScreen.storyboard */,
 				A4F755F426A8B634002D8A02 /* Info.plist */,
 				A4F755EC26A8B62A002D8A02 /* SampleSxasdas.xcdatamodeld */,
+				A4F755FB26A8B85E002D8A02 /* CoreDataStack.swift */,
 			);
 			path = SampleSxasdas;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F755FC26A8B85E002D8A02 /* CoreDataStack.swift in Sources */,
 				A4F755E826A8B62A002D8A02 /* ViewController.swift in Sources */,
 				A4F755E426A8B62A002D8A02 /* AppDelegate.swift in Sources */,
 				A4F755E626A8B62A002D8A02 /* SceneDelegate.swift in Sources */,
